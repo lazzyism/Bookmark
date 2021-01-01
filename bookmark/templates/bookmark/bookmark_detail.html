@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block title %}detail{% endblock %}
+{% block content %}
+
+{{object.site_name}}<br/>
+{{object.url}}
+<td><a href="{{bookmark.url}}" target="_blank">{{bookmark.url}}</a> </td>
+
+{% endblock %}
